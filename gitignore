@@ -1,0 +1,29 @@
+# Чекпоинты моделей
+checkpoints/
+*.pt
+*.pth
+
+# Датасеты (скачиваются кодом при запуске)
+data/
+*.csv
+*.npz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Логи и кэш
+*.log
+.cache/
+wandb/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

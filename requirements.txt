@@ -1,0 +1,33 @@
+# Deep learning core
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# Mamba (селективная SSM)
+# ставится отдельно, см. раздел "Запуск" в README:
+#   pip install mamba-ssm --no-build-isolation
+# требует CUDA-совместимый GPU (сборка ядер selective scan)
+# mamba-ssm>=2.0.0
+# causal-conv1d>=1.2.0
+
+# Данные и токенизация
+datasets>=2.19.0
+transformers>=4.40.0
+
+# Состязательные атаки
+torchattacks>=3.5.1
+git+https://github.com/fra31/auto-attack.git
+
+# Метрики и утилиты
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pandas>=2.2.0
+tqdm>=4.66.0
+
+# Визуализация
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Окружение ноутбука
+jupyter>=1.0.0
+ipython>=8.20.0
